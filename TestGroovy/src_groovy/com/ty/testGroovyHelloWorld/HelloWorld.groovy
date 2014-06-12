@@ -16,9 +16,9 @@ public class HelloWorld {
 	}
 
 	public static void main(String [] args){
-//		helloWorld = new HelloWorld();
-//		helloWorld.setName("Groovy");
-//		System.out.println( helloWorld.greet() );
+		HelloWorld helloWorld = new HelloWorld();
+		helloWorld.setName("Groovy");
+		System.out.println( helloWorld.greet() );
 	}
 }
 
