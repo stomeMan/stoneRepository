@@ -1,4 +1,4 @@
-package com.ty.java.helloworld
+package com.ty.groovy.helloworld;
 /*public*/ class HelloWorld {
 	String name;
 
@@ -18,6 +18,12 @@ package com.ty.java.helloworld
 //		helloWorld.setName("Groovy");
 		println helloWorld.greet()
 	}
+
+@Override
+public boolean equals(Object obj) {
+	return this.name==((HelloWorld)obj).getName();
+	
+}
 }
 
 //print "Hello World";

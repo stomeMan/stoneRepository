@@ -1,4 +1,4 @@
-package com.ty.groovy.helloworld;
+package com.ty.java.helloworld;
 
 public class HelloWorld {
 	public String name;
@@ -14,6 +14,8 @@ public class HelloWorld {
 	public String greet() {
 		return "Hello" + name;
 	}
+	
+
 
 	public static void main(String args[]) {
 		HelloWorld helloWorld = new HelloWorld();
