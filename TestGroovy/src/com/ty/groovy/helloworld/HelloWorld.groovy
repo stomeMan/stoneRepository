@@ -20,7 +20,7 @@ package com.ty.groovy.helloworld;
 	}
 
 @Override
-public boolean equals(Object obj) {
+boolean equals(Object obj) {
 	return this.name==((HelloWorld)obj).getName();
 	
 }

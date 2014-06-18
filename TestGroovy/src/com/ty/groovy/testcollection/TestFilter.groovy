@@ -8,6 +8,10 @@ class TestFilter{
 		def shorts = list.findAll { it.size() <= 4 }
 		println shorts.size()
 		shorts.each { println it }
-		print new HelloWorld(name:"hello")==new HelloWorld(name:"hello");
+		print 1.MAX_VALUE;
+		switch(list){
+			case 1 : print list;
+			case 2 :print list ;
+		}
 	}
 }

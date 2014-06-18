@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import com.ty.groovy.helloworld.HelloWorld;
 
 public class Filter {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
