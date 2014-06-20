@@ -12,8 +12,6 @@ import java.util.regex.Pattern
 //println "abc1".matches('abc\\d');
 
 
-
-
 public class TestRegex {
 	public static  main(String [] args) {
 		Pattern p=Pattern.compile("abc\\d");
