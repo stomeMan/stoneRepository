@@ -1,6 +1,7 @@
 package com.ty.groovy.metaprogram
 
-import com.ty.java.helloworld.HelloWorld;
+
+import com.ty.groovy.helloworld.HelloWorld;
 
 //class Test {
 //

@@ -16,7 +16,7 @@ package com.ty.groovy.helloworld;
 /*public*/ static /*void*/ main( args){
 		def helloWorld = new HelloWorld(name:"Groovy")
 //		helloWorld.setName("Groovy");
-		println helloWorld.greet()
+		println helloWorld.greet();
 	}
 
 @Override
