@@ -21,6 +21,8 @@ package com.ty.groovy.helloworld;
 
 @Override
 boolean equals(Object obj) {
+	def d=1;
+	
 	return this.name==((HelloWorld)obj).getName();
 	
 }
