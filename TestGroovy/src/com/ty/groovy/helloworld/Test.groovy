@@ -4,6 +4,7 @@ package com.ty.groovy.helloworld
 //
 //}
 	def helloWorld = new HelloWorld(name:"Groovy")
-		helloWorld.setName("Groovy");
-		println helloWorld.name;
+//		helloWorld.setName("Groovy");
+//		println helloWorld.name;
+	print helloWorld.greet();
 	

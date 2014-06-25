@@ -9,7 +9,7 @@ package com.ty.groovy.helloworld;
 //		return name;
 //	}
 
-/*public*/String greet() {
+/*public*/String greet(def name="Jack") {
 		/*return*/ "Hello${name}";
 	}
 
@@ -26,6 +26,7 @@ boolean equals(Object obj) {
 	return this.name==((HelloWorld)obj).getName();
 	
 }
+	
 }
 
 //print "Hello World";
