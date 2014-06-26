@@ -23,7 +23,6 @@ class SortHelper {
 			def comparator = { node1,node2 ->
 				return node1."${name}".compareTo(node2."${name}")
 			} as Comparator
-			
 			//排序
 			Collections.sort(this.list,comparator)
 		}
