@@ -9,7 +9,9 @@ class TestFilter{
 	}
 	static testList(){
 		def list = ["Rod","Neeta","Eric","Missy"]
-		def shorts = list.findAll { it.size() <= 4 }
+		def shorts = list.findAll { 
+			it.size() <= 4 
+		}
 		println shorts.size()
 		shorts.each { println it }
 	}
